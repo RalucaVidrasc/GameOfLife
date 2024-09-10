@@ -44,10 +44,10 @@ grid sizes and positions. Synchronization between CPU and GPU is required to ens
 Control functions (start, stop, reset, restore) are implemented to allow the user to
 to interact with the simulation.\
 **GPU** - User interface and control functions are similar to the CPU implementation, but with
-adjustments to work with PyTorch tensors.The control functions must synchronize the actions of the user's actions with parallel operations on the GPU.\
+adjustments to work with PyTorch tensors.The control functions must synchronize the actions of the user's actions with parallel operations on the GPU.
 
 
-  To illustrate the performance, I took 2 simple cases, whose configurations were set for both CPU and GPU, and then obtained the execution times until the final, stable conformation.\
+  To illustrate the performance, I took 2 simple cases, whose configurations were set for both CPU and GPU, and then obtained the execution times until the final, stable configuration.
   
   ![GameOfLifeEx1](https://github.com/user-attachments/assets/249da60d-6348-4df8-be34-78c7f31182b8)
 
