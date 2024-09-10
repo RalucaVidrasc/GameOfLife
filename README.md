@@ -5,16 +5,16 @@
 ![image](https://github.com/user-attachments/assets/7e967cf9-3764-42e9-905a-2842d34c32ea)
 
 Rules:
-1. Subpopulation: A living cell with less than two living neighbors dies.\
-2. Survival: A living cell with two or three living neighbors stays alive.\
-3. Overcrowding: A living cell with more than three living neighbors dies.\
-4. Reproduction: A dead cell with exactly three living neighbors becomes alive.\
+1. Subpopulation: A living cell with less than two living neighbors dies.
+2. Survival: A living cell with two or three living neighbors stays alive.
+3. Overcrowding: A living cell with more than three living neighbors dies.
+4. Reproduction: A dead cell with exactly three living neighbors becomes alive.
 
   I implemented the game on both CPU and GPU in order to compare the different methods and see the differences. For the version running on GPU I used the following versions: 2.0.1. for Pytorch and 11.7 for CUDA Toolkit.\
   The video below contains an example of how the application works:\ 
   ![GameOfLifeExampleVideo](https://github.com/user-attachments/assets/78d82a06-8329-4e70-86b7-b19de4ea2dd4)
 
-Comparison of the methods:\
+Comparison of the methods:
 ● **Data structure**\
 **CPU** - Cell states are stored in a Python dictionary (cell_states), where each key
 represents the coordinates of a cell and the value represents its state (alive or dead).
