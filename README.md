@@ -2,9 +2,9 @@
 
   This project contains an implementation of Conway's Game of Life, invented by British mathematician John Horton Conway in 1970. This game is a cellular automaton with zero players and it is played on a two-dimensional grid of square cells, each cell having two possible states: alive or dead. 
   The evolution is determined solely by the initial state of the cells and the rules of interaction between without further intervention from the players. Although the rules are simple, the complexity and diversity of emerging behaviors are surprising and fascinating.
-![image](https://github.com/user-attachments/assets/7e967cf9-3764-42e9-905a-2842d34c32ea)\
+![image](https://github.com/user-attachments/assets/7e967cf9-3764-42e9-905a-2842d34c32ea)
 
-Rules:\
+Rules:
 1. Subpopulation: A living cell with less than two living neighbors dies.\
 2. Survival: A living cell with two or three living neighbors stays alive.\
 3. Overcrowding: A living cell with more than three living neighbors dies.\
@@ -13,7 +13,7 @@ Rules:\
   The video below contains an example of how the application works: 
   ![GameOfLifeExampleVideo](https://github.com/user-attachments/assets/78d82a06-8329-4e70-86b7-b19de4ea2dd4)
 
-Comparison of Methods:
+Comparison of Methods:\
 ● **Data structure**\
 **CPU** - Cell states are stored in a Python dictionary (cell_states), where each key
 represents the coordinates of a cell and the value represents its state (alive or dead).
